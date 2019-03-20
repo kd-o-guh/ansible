@@ -1,0 +1,4 @@
+---
+- hosts: rambox
+  roles: 
+    - {role: rambox, tags: ["rambox"]}  
