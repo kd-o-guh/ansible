@@ -1,0 +1,4 @@
+---
+- hosts: spotify
+  roles:
+    - {role: spotify, tags: ["spotify"]}
